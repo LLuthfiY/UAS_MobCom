@@ -2,8 +2,11 @@ package com.example.uas
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import androidx.loader.app.LoaderManager
+import androidx.loader.content.Loader
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -18,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         getActionBar()?.setTitle("GET WEB page Source code");
         getSupportActionBar()?.setTitle("GET WEB page Source code");
+
 
 
         val spinner = findViewById<Spinner>(R.id.httpType)
@@ -51,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             queue.add(stringRequest)
         }
     }
+
 
 
 }

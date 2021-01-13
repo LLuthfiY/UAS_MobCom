@@ -55,6 +55,7 @@
         />
     <TextView
         android:id="@+id/sc_result"
+        android:text="web page source will uppears here"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:inputType="textMultiLine"
