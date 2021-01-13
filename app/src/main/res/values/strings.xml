@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UAS</string>
+    <string-array name="httptype">
+        <item>HTTP://</item>
+        <item>HTTPS://</item>
+    </string-array>
+</resources>
