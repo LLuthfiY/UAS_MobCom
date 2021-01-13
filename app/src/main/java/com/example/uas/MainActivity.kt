@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
         getActionBar()?.setTitle("GET WEB page Source code");
         getSupportActionBar()?.setTitle("GET WEB page Source code");
 
-        supportLoaderManager.initLoader(0, null, this)
-
 
         val spinner = findViewById<Spinner>(R.id.httpType)
 
